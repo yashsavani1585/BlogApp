@@ -1,0 +1,42 @@
+# Node.js
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.log
+
+# Directory for sensitive files
+.env
+.env.*  # Ignore environment variable files
+
+# Test coverage
+coverage/
+
+# Dependencies
+package-lock.json  # Comment this out if you want to track package-lock.json
+
+# Build outputs
+dist/
+build/
+
+# Optional: Ignore the upload folder if used for storing temporary uploads
+uploads/
+
+# MacOS files
+.DS_Store
+
+# IDE or editor files (e.g. VSCode, IntelliJ, etc.)
+.vscode/
+.idea/
+
+# Other specific files/folders
+*.pem  # Private keys (JWT, SSL, etc.)
