@@ -4,7 +4,7 @@ import { createSlice } from '@reduxjs/toolkit';
 const prodSlice = createSlice({
   name: 'prod',
   initialState: {
-    link: 'http://localhost:3000',  // Default link for local development
+    link: "https://blogapp-1-56pl.onrender.com"
   },
   reducers: {
     setLink: (state, action) => {
