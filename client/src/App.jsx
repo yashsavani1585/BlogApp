@@ -129,10 +129,10 @@ import AdmindashBoard from "./Pages/AdminDashBoard/AdmindashBoard";
 import AdminDashboard from "./components/Admin Components/DashBoard/AdminDashboard";
 import AddBlogs from "./components/Admin Components/Add Blog/AddBlogs";
 import EditBlogs from "./components/Admin Components/Edit Blog/EditBlogs";
- import UpdateBlog from './components/Admin Components/Edit Blog/compo/UpdateBlog';
+ import UpdateBlog from './components/Admin Components/Edit Blog/Compo/UpdateBlog.jsx';
 
 import ProtectedRoute from "./components/ProtectedRouts/ProtecteRouts";
-import AminProtectedRoute from "./components/ProtectedRouts/AdminProtectedRoute";
+// import AminProtectedRoute from "./components/ProtectedRouts/AdminProtectedRoute";
 
 const App = () => {
   const backendLink = useSelector((state) => state.prod.link);
