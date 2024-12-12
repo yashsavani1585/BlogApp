@@ -129,7 +129,7 @@ import AdmindashBoard from "./Pages/AdminDashBoard/AdmindashBoard";
 import AdminDashboard from "./components/AdminComponents/DashBoard/AdminDashboard";
 import AddBlogs from "./components/AdminComponents/AddBlog/AddBlogs";
 import EditBlogs from "./components/AdminComponents/EditBlog/EditBlogs";
-import UpdateBlog from './components/AdminComponents/EditBlog/compo/UpdateBlog';
+import UpdateBlog from './components/AdminComponents/EditBlog/compo/UpdateBlog.jsx';
 
 import ProtectedRoute from './components/Protec/ProtecteRouts';
 
