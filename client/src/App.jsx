@@ -119,20 +119,19 @@ import OtherLayout from "./Layout/OtherLayout";
 import Login from "./Pages/Login/Login";
 import SignUp from "./SignUp/SignUp";
 import Profile from "./Pages/Profile/Profile";
-import AllBlogs from "./Pages/All Blogs/Page";
+import AllBlogs from "./Pages/AllBlogs/Page";
 import DashBoardProfile from "./components/Profile/DashBoardProfile";
 import Favourites from "./components/Profile/Favourites";
 import Description from "./Pages/Description/Description";
 import Categories from "./Pages/Categories/Categories";
 import AdminLogin from "./Pages/AdminLogin/AdminLogin";
 import AdmindashBoard from "./Pages/AdminDashBoard/AdmindashBoard";
-import AdminDashboard from "./components/Admin Components/DashBoard/AdminDashboard";
-import AddBlogs from "./components/Admin Components/Add Blog/AddBlogs";
-import EditBlogs from "./components/Admin Components/Edit Blog/EditBlogs";
- import UpdateBlog from './components/Admin Components/Edit Blog/Compo/UpdateBlog.jsx';
+import AdminDashboard from "./components/AdminComponents/DashBoard/AdminDashboard";
+import AddBlogs from "./components/AdminComponents/AddBlog/AddBlogs";
+import EditBlogs from "./components/AdminComponents/EditBlog/EditBlogs";
+ import UpdateBlog from './components/AdminComponents/EditBlog/compo/UpdateBlog';
 
-import ProtectedRoute from "./components/ProtectedRouts/ProtecteRouts";
-// import AminProtectedRoute from "./components/ProtectedRouts/AdminProtectedRoute";
+import ProtectedRoute from './components/Protec/ProtecteRouts';
 
 const App = () => {
   const backendLink = useSelector((state) => state.prod.link);

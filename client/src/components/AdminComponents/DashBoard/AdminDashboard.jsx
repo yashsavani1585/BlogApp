@@ -1,5 +1,5 @@
 import React from 'react'
-import AllBlogs from '../../../Pages/All Blogs/Page'
+import AllBlogs from '../../../Pages/AllBlogs/Page'
 
 const AdminDashboard = () => {
   return (

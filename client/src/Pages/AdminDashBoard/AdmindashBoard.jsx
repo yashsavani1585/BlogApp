@@ -1,5 +1,5 @@
 import React from 'react'
-import SideBar from '../../components/Admin Components/SideBar/SideBar';
+import SideBar from '../../components/AdminComponents/SideBar/SideBar';
 import { Outlet } from 'react-router-dom';
 
 const AdmindashBoard = () => {

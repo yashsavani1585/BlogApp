@@ -28,7 +28,7 @@ const Navbar = () => {
     <nav className='relative flex items-center justify-between py-4 border-b border-zinc-200'>
       {/* Brand Name */}
       <div className='w-3/6 lg:w-2/6'>
-        <Link to='/' className='text-xl font-bold'>YS BLOGGER</Link>
+        <Link to='/' className='text-xl font-bold'>BLOGGER</Link>
       </div>
 
       {/* Desktop Links */}

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 import axios from 'axios';
 // import { authActions } from '../../Store/authSlice';
-import AllBlogsComponents from '../../components/All Blogs/AllBlogsComponents';
+import AllBlogsComponents from '../../components/AllBlogs/AllBlogsComponents';
 
 const AllBlogs = () => {
   const backendLink = useSelector((state) => state.prod.link); // Link to the backend

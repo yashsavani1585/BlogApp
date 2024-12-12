@@ -1,36 +1,4 @@
-// import React from 'react'
-// import { Link } from 'react-router-dom';
 
-// const SideBar = () => {
-//     const links = [
-//         {
-//             name:"Dashboard",
-//             to:"/Admin-DashBoard",
-//         },
-//         {
-//             name:"Add Blog",
-//             to:"/Admin-DashBoard/add-blogs",
-//         },
-//         {
-//             name:"Edit Blogs",
-//             to:"/Admin-DashBoard/edit-blogs",
-//         },
-//     ];
-//   return (
-//     <div className='p-4'>
-//         <h1 className='text-xl font-semibold'>Admin Page</h1>
-//         <hr className='my-4'/>
-//         <div className='flex flex-col gap-4'>
-//         {links.map((items,i)=><Link to={items.to} key={i}
-//         className='text-xl hover:scale-105 transition-all duration-300'>{items.name}</Link>)}
-
-//         </div>
-//         <div><button className='mt-5 bg-black text-white px-4 py-2 w-[100%] rounded'>LogOut</button></div>
-//     </div>
-//   )
-// }
-
-// export default SideBar
 
 
 import React, { useState } from 'react';
