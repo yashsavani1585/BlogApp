@@ -5,8 +5,7 @@ import { toast } from 'react-toastify'; // Import toast
 import { useSelector } from 'react-redux'; // Import useSelector to get the backend URL from Redux
 
 const SignUp = () => {
-  const backendLink = useSelector((state) => state.prod.link); // Get the backend URL from Redux state
-
+  const backendLink = useSelector((state) => state.prod.link); 
   const [Inputs, setInputs] = useState({
     username: '',
     email: '',

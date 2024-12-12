@@ -17,7 +17,7 @@ app.use(express.json());
 
 // CORS configuration to allow only the frontend origin
 const corsOptions = {
-    origin: 'http://localhost:5173', // replace with your frontend URL
+    origin: 'https://blog-ys.onrender.com', // replace with your frontend URL
     credentials: true, // Allows cookies to be sent with requests
 };
 app.use(cors(corsOptions));
