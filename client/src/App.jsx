@@ -129,7 +129,7 @@ import AdmindashBoard from "./Pages/AdminDashBoard/AdmindashBoard";
 import AdminDashboard from "./components/AdminComponents/DashBoard/AdminDashboard";
 import AddBlogs from "./components/AdminComponents/AddBlog/AddBlogs";
 import EditBlogs from "./components/AdminComponents/EditBlog/EditBlogs";
- import UpdateBlog from './components/AdminComponents/EditBlog/compo/UpdateBlog';
+import UpdateBlog from './components/AdminComponents/EditBlog/compo/UpdateBlog';
 
 import ProtectedRoute from './components/Protec/ProtecteRouts';
 
@@ -191,9 +191,9 @@ const App = () => {
           <Route path="/Admin-login" element={<AdminLogin />} />
           <Route path="/Admin-DashBoard" element={
             // <AminProtectedRoute>
-              <AdmindashBoard />
-              // </AminProtectedRoute>
-              }>
+            <AdmindashBoard />
+            // </AminProtectedRoute>
+          }>
             <Route index element={<AdminDashboard />} />
             <Route path="/Admin-DashBoard/add-blogs" element={<AddBlogs />} />
             <Route path="/Admin-DashBoard/edit-blogs" element={<EditBlogs />} />
