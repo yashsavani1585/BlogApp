@@ -17,11 +17,14 @@ app.use(express.json());
 
 // CORS configuration to allow only the frontend origin
 const corsOptions = {
-    origin: 'https://blog-ys.onrender.com',
-    origin: 'https://blog-app-rust-one.vercel.app/'// replace with your frontend URL
-    credentials: true, // Allows cookies to be sent with requests
+    origin: [
+        'https://blog-ys.onrender.com',
+        'https://blog-app-rust-one.vercel.app'
+    ],
+    credentials: true, // ✅ Fix: Corrected syntax
 };
 app.use(cors(corsOptions));
+
 
 // Routes
 app.use('/api/v1', userRouter);
