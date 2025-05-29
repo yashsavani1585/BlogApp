@@ -18,7 +18,7 @@ app.use(express.json());
 // CORS configuration to allow only the frontend origin
 const corsOptions = {
     origin: [
-        'https://blog-ys.onrender.com',
+        'https://blog-ys.onrender.com/',
     ],
 
 };
