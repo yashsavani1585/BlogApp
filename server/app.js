@@ -19,7 +19,8 @@ app.use(express.json());
 const corsOptions = {
     origin: [
         'https://blog-ys.onrender.com',
-        'https://blog-app-rust-one.vercel.app'
+        'https://blog-app-rust-one.vercel.app',
+        'http://localhost:5174/',
     ],
     credentials: true, // ✅ Fix: Corrected syntax
 };
