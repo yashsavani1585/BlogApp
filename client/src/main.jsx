@@ -43,7 +43,7 @@ import './index.css'
 import { Provider } from 'react-redux';
 import { BrowserRouter as Router } from 'react-router-dom';
 import App from './App';
-import store from './store';
+import store from './Store/index.js';
 
 // ✅ Your Error Boundary component
 class ErrorBoundary extends React.Component {
