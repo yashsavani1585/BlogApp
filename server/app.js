@@ -20,9 +20,15 @@ const corsOptions = {
     origin: [
         'https://blog-ys.onrender.com',
         'https://blog-app-rust-one.vercel.app',
+<<<<<<< HEAD
         'http://localhost:5174',
     ],
     credentials: true,
+=======
+        'http://localhost:5174/',
+    ],
+    credentials: true, // ✅ Fix: Corrected syntax
+>>>>>>> dc58086766dedbde660651ca5365200a84bae70f
 };
 
 app.use(cors(corsOptions));
